@@ -57,7 +57,7 @@ public class AiAssistant : MonoBehaviour
                   { ""role"": ""user"", ""content"": ""%prompt%""}
             ],
             ""temperature"": 0.7,
-            ""stream"": ""false"",
+            ""stream"": false,
             ""max_tokens"": -1
         }
         ".Replace("%prompt%", inputPrompt.text);
